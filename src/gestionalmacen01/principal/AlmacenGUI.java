@@ -25,7 +25,7 @@ public class AlmacenGUI extends JFrame {
     public AlmacenGUI() {
         // Inicialización del modelo (usando ArrayList por defecto)
     
-        almacen = new ModeloHashMap();
+        almacen = new ModeloDB();
         
         // Configuración básica de la ventana
         setTitle("Sistema de Gestión de Almacén - CRUD");

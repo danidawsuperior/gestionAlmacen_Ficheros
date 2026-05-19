@@ -29,6 +29,8 @@ public interface  ModeloAbs
     List <Producto> obtenerProductosStockMin();
     
     boolean modificarProducto (Producto nuevo);
+
+	boolean salvarProducto();
     
     
 }

@@ -133,5 +133,11 @@ public class ModeloHashMap implements ModeloAbs
 		mapa.values().removeIf( p -> p.stock == 0);
 		return tamañoOld - mapa.size();
 	}
+
+	@Override
+	public boolean salvarProducto() {
+		// TODO Auto-generated method stub
+		return false;
+	}
     
 }

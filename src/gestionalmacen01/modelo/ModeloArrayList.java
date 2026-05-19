@@ -163,5 +163,11 @@ public class ModeloArrayList implements ModeloAbs
 		}
 		return cont;
 	}
+
+	@Override
+	public boolean salvarProducto() {
+		// TODO Auto-generated method stub
+		return false;
+	}
      
 }    
